@@ -1,0 +1,50 @@
+.container {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.title {
+  margin-bottom: 32px;
+  color: #1976d2;
+  font-weight: 600;
+  text-align: center;
+}
+
+.fileListContainer {
+  margin-top: 32px;
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  outline: none;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow: hidden;
+}
+
+.errorSnackbar {
+  background-color: #f44336;
+}
+
+.successSnackbar {
+  background-color: #4caf50;
+} 

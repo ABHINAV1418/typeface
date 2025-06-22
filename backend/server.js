@@ -10,10 +10,12 @@ const app = express();
 
 // Middleware
 app.use(cors());
+app.use('/uploads', express.static('uploads'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // MongoDB Connection
+console.log("process.env.MONGODB_URI", process.env.MONGODB_URI);
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/typeface', {
     useNewUrlParser: true,
     useUnifiedTopology: true

@@ -1,0 +1,32 @@
+.fileList {
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.fileItem {
+  margin-bottom: 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.fileItem:hover {
+  background-color: #e0e0e0;
+}
+
+.fileText {
+  cursor: pointer;
+}
+
+.fileText:hover {
+  color: #1976d2;
+}
+
+.downloadButton {
+  color: #1976d2;
+}
+
+.downloadButton:hover {
+  background-color: rgba(25, 118, 210, 0.1);
+} 
