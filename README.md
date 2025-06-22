@@ -46,6 +46,14 @@ typeface/
    npm install
    ```
 3. Create a .env file with necessary environment variables
+ ## Environment Variables
+> Create a .env file in the backend directory with the following content:
+> ```
+> PORT=5000
+> MONGODB_URI=your_mongodb_connection_string_here
+> ```
+> Replace your_mongodb_connection_string_here with your own MongoDB URI.
+
 4. Start the server:
    ```bash
    npm start
